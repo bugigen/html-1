@@ -61,8 +61,8 @@ img {
 }
 
 .wrapper {
-    display: grid;
+    display: flex;
     gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
 }
 
